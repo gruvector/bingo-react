@@ -20,6 +20,7 @@ router.post('/loginAdmin', ctrlAdminsAuth.loginAdmin);
 // For the time being the admin roles will be added only manually
 router.post('/registerAdmin', ctrlAdminsAuth.register);
 
+
 // Main app
 const ctrlProfile = require('../controllers/profile');
 const ctrlAuth = require('../controllers/users-auth');
