@@ -19,7 +19,7 @@ class FlyingPrize {
 		elFlyingPrize.setAttribute('id', 'flyingPrize');
 		elFlyingPrize.innerHTML = sum;
 		document.body.appendChild(elFlyingPrize);
-
+		console.log(elFlyingPrize);
 		// Animate moving the element to given top and left positions
 		Animator.moveDiagonally(elFlyingPrize, 45, 45, -45, 42, Animator.quad, 3000, '%');
 
