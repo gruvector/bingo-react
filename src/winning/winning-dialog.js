@@ -28,7 +28,6 @@ class WinningDialog {
 					elPrize: null,
 					text: 'Bingos:'
 				};
-				console.log(objWinning);
 				ApiController.setBingoWins(bingos);
 				WinningDialog.createDialog(objWinning);
 			});
