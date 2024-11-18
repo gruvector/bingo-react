@@ -35,7 +35,6 @@ class WinPatternsAnimModule {
 			elTable.appendChild(elRow);
 			i++;
 		}
-		console.log(this.elem);
 		this.elem.appendChild(elTable);
 
 		this.startAnimation();
