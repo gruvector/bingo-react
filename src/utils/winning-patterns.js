@@ -27,6 +27,16 @@ const WinningPatterns = {
 		return this.isBingo(arrCoordinates);
 	},
 
+	checkHorizontalPatternForExample(arr) {
+		const arrCoordinates = [];
+		arr.forEach((el) => {
+			let coorY = el.substr(1, 2);
+			arrCoordinates.push(coorY);
+		});
+
+		return this.isBingo(arrCoordinates);
+	},
+
 	checkVerticalPattern(arr) {
 		const arrCoordinates = [];
 		arr.forEach((el) => {
