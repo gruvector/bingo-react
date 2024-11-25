@@ -31,14 +31,6 @@ const NumbersGenerator = {
 		return arrOutput;
 	},
 
-	getRandomNumberForExample (min, max) {
-		if (max === undefined) {
-			max = min;
-			min = 0;
-		}
-		return Math.floor(Math.random() * (max - min + 1)) + min;
-	},
-
 };
 
 export { NumbersGenerator };
