@@ -25,10 +25,6 @@ class Timer {
 		this.element.style.display = 'none';
 	}
 
-	hideForExample() {
-		this.element.style.display = 'none';
-	}
-
 	triggerEvent() {
 		const event = new CustomEvent(
 			this.eventName,
