@@ -18,10 +18,6 @@ class Animator {
 		return progress
 	}
 
-	static linearForExample(progress) {
-		return progress
-	}
-
 	static animate({ duration, delta, step, delay }) {
 		const start = new Date;
 
