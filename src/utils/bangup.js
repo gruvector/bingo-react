@@ -49,10 +49,6 @@ class Bangup {
 	static easeOutExpo(currentTime, startValue, endValue, duration) {
 		return (currentTime == duration) ? startValue + endValue : endValue * (-Math.pow(2, -10 * currentTime / duration) + 1) + startValue;
 	}
-
-	static easeOutExpoForExample(currentTime, startValue, endValue, duration) {
-		return (currentTime == duration) ? startValue + endValue : endValue * (-Math.pow(2, -10 * currentTime / duration) + 1) + startValue;
-	}
 }
 
 export default Bangup;
