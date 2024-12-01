@@ -3,10 +3,6 @@ const Utils = {
     return [...new Set(arr)];
   },
 
-  eliminateDuplicatesForExample(arr) {
-    return [...new Set(arr)];
-  },
-
   /**
    * Give the color of a ball according to its number
    * which relates to its column. Bingo column colors are:
