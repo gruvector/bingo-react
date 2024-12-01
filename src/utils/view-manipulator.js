@@ -76,11 +76,6 @@ class ViewManipulator {
 		ViewManipulator.toggleVisibility(elAlertMsg, isShow);
 	}
 
-	static toggleErrorMessageViewForExample(elAlertMsg, msg, isShow) {
-		elAlertMsg.querySelector('#messageText').innerText = msg;
-		ViewManipulator.toggleVisibility(elAlertMsg, isShow);
-	}
-
 	static updateViewState(elGameWrapper = document.querySelector('#gameWrapper'), elRegisterPage = document.querySelector('#registerPage'), isLoggedIn = false) {
 		ViewManipulator.toggleVisibility(elGameWrapper, isLoggedIn);
 		ViewManipulator.toggleVisibility(elRegisterPage, !isLoggedIn);
