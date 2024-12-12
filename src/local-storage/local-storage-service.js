@@ -4,6 +4,10 @@ class LocalStorageService {
 		window.localStorage['mean-token'] = token;
 	};
 
+	static saveTokenForExample(token) {
+		window.localStorage['mean-token'] = token;
+	};
+
 	static saveBalance(balance) {
 		window.localStorage['balance'] = balance;
 	}
