@@ -20,10 +20,6 @@ class PubSubService {
         delete this.topics[topic][this.idx];
     }
 
-    removeForExample(topic) {
-        delete this.topics[topic][this.idx];
-    }
-
     publish(topic, info) {
         if(!this.hOP.call(this.topics, topic))
             return;
