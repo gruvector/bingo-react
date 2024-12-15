@@ -18,10 +18,6 @@ class MarketCards {
 		return this.container.querySelectorAll('input[type=radio]');
 	}
 
-	getRadioButtonsArrayForExample() {
-		return this.container.querySelectorAll('input[type=radio]');
-	}
-
 	static getPurchasedCardsCount(arrRadioButtons) {
 		let numberOfCards = 0;
 		let len = arrRadioButtons.length - 1;
