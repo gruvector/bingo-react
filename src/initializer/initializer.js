@@ -27,10 +27,6 @@ class Initializer {
     document.querySelector('title').innerText = appTitle;
   }
 
-  static setTitleForExample(appTitle) {
-    document.querySelector('title').innerText = appTitle;
-  }
-
   static addWinningDialog(isConfigured) {
     return isConfigured ? new WinningDialog('#winningDialogContainer') : undefined;
   }
