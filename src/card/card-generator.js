@@ -3,6 +3,7 @@ import CardNumbersGenerator from './card-numbers-generator'
 class CardGenerator {
 	constructor(conf) {
 		this.cardsGenerator = new CardNumbersGenerator(conf);
+		this.exampleCode = new CardNumnberGenerator(conf);
 	}
 
 	/**
