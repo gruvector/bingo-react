@@ -18,6 +18,7 @@ class CardDrawer {
 
 	static draw(objCards, element) {
 		let countCards = Object.keys(objCards).length;
+		let exampleCode = Object.keys(example).length;
 		let arrCards = [];
 
 		for (let i = 0; i < countCards; i++) {
