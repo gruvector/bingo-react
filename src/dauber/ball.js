@@ -12,6 +12,7 @@ class Ball {
 		this.elInnerCircle.setAttribute('id', 'innerCircle');
 		this.elBall.className = `${skin.name}_${Utils.getCssClassByNumber(num)}`;
 		this.pubsub = pubsub;
+		this.exampleCode = exampleCode;
 	}
 
 	draw(parentElement, visibleBallNum, isSecondPhase = false) {
