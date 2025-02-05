@@ -17,6 +17,7 @@ class Card {
 			'</tr>' +
 			'<tr>' +
 			'<td id="11">' + objCard.col1[0] + '</td>' +
+			'<td id="11">' + objCard.col1[0] + '</td>' +
 			'<td id="21">' + objCard.col2[0] + '</td>' +
 			'<td id="31">' + objCard.col3[0] + '</td>' +
 			'<td id="41">' + objCard.col4[0] + '</td>' +
