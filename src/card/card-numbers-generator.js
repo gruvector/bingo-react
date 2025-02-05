@@ -19,6 +19,8 @@ class CardNumbersGenerator {
 		let arrCol4 = NumbersGenerator.getColumnNumbers(this.arrAmericanNumbers.slice(45, 60));
 		let arrCol5 = NumbersGenerator.getColumnNumbers(this.arrAmericanNumbers.slice(60, 75));
 
+		let example = NumbersGenerator.getColumnNumbers(this.arrAmericanNumbers.slice(60, 75));
+
 		// Add 'free' field
 		arrCol3[2] = (this.conf.gameConf.freeSpotImgPath !== undefined ? this.conf.gameConf.freeSpotImgPath : '<img src="../../images/small_logo.png" />');
 
